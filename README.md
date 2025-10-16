@@ -44,7 +44,7 @@ Then open your browser at 👉 http://localhost:8501
 ## 🧭 How to Use
 
 #### Step 1 – Select a Tool 
-Choose from NZMAC, NZRAPP, or NZART depending on your task type (lifting  pushing  repetitive motion).
+Choose from NZMAC, NZRAPP, or NZART depending on your task type (lifting / pushing / repetitive motion).
 
 #### Step 2 – Enter Task Data
 Fill in:
@@ -79,9 +79,9 @@ Check historical assessments, visualize risk changes over time, and export data 
 
 ## 💾 Data Import / Export 
 
-Export Results download current assessments as CSV
+Export Results: download current assessments as CSV
 
-Import Data upload a saved CSV to restore your session
+Import Data: upload a saved CSV to restore your session
 
 Works offline — no database or server required
 
