@@ -1,29 +1,29 @@
-# 🧍‍♀️ MSD Risk Survey Demo
+# MSD Risk Survey Demo #
 
 A lightweight, low-code **Streamlit** application that helps safety professionals and small businesses **identify, assess, and control** musculoskeletal disorder (MSD) risks in manual handling, pushing/pulling, and repetitive tasks.
 
-This demo aligns with the **ProErgo+ Survey Tools** project requirements — providing an intuitive, no-database interface for the New Zealand risk assessment standards (NZMAC, NZRAPP, NZART).
+Providing an intuitive, no-database interface for the New Zealand risk assessment standards (NZMAC, NZRAPP, NZART).
 
 ---
 
-## 🚀 Quick Start
+🚀 Quick Start
 
-### 1️⃣ Install Dependencies
+1️⃣ Install Dependencies
 
 Clone or download the repository:
 ```bash
 git clone https://github.com/EdnaZhang-743/MSD_Survey_Tool.git
 cd MSD_Survey_Tool
 
-(Optional) create a virtual environment:
-
+# (Optional) create a virtual environment:
 python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
-Install packages:
 
+# Windows：
+.venv\Scripts\activate
+# macOS/Linux：
+source .venv/bin/activate
+
+#Install packages:
 pip install streamlit pandas numpy matplotlib
 
 2️⃣ Run the Application
@@ -39,37 +39,30 @@ Step 2 – Enter Task Data
 Fill in:
 
 Task Name (e.g., “Manual lifting – boxes”)
-
 Task Duration (minutes)
-
 Frequency (per hour)
-
 Posture Type
-
 Load Weight (kg)
-
 Height / Angle / Distance, depending on tool type
 
 Step 3 – Calculate Risk
 Click the Calculate button to view:
 
 Risk Level (Low / Medium / High)
-
 Recommended Control Measures
-
 Estimated Cost Saving (optional)
 
 Step 4 – History & Trends
 Check historical assessments, visualize risk changes over time, and export data to CSV.
 
 💾 Data Import / Export
+
 Export Results: download current assessments as CSV
-
 Import Data: upload a saved CSV to restore your session
-
 Works offline — no database or server required
 
 🧩 Tech Stack
+
 Component	Technology
 Frontend	Streamlit (Python)
 Backend	pandas + numpy
