@@ -47,20 +47,29 @@ Then open your browser at 👉 http://localhost:8501
 Choose from NZMAC, NZRAPP, or NZART depending on your task type (lifting  pushing  repetitive motion).
 
 #### Step 2 – Enter Task Data
-Fill in
+Fill in:
+
 
 Task Name (e.g., “Manual lifting – boxes”)
+
 Task Duration (minutes)
+
 Frequency (per hour)
+
 Posture Type
+
 Load Weight (kg)
+
 Height / Angle / Distance, depending on tool type
 
 #### Step 3 – Calculate Risk
-Click the Calculate button to view
+Click the Calculate button to view:
+
 
 Risk Level (Low / Medium / High)
+
 Recommended Control Measures
+
 Estimated Cost Saving (optional)
 
 #### Step 4 – History & Trends
@@ -71,7 +80,9 @@ Check historical assessments, visualize risk changes over time, and export data 
 ## 💾 Data Import / Export 
 
 Export Results download current assessments as CSV
+
 Import Data upload a saved CSV to restore your session
+
 Works offline — no database or server required
 
 ---
@@ -79,7 +90,11 @@ Works offline — no database or server required
 ## 🧩 Tech Stack
 
 Component	Technology
+
 Frontend	Streamlit (Python)
+
 Backend	pandas + numpy
+
 Visualization	matplotlib
+
 Storage	Local CSV files
