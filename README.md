@@ -1,6 +1,6 @@
 # MSD Risk Survey Demo
 
-A lightweight, low-code Streamlit application that helps safety professionals and small businesses identify, assess, and control musculoskeletal disorder (MSD) risks in manual handling, pushingpulling, and repetitive tasks.
+A lightweight, low-code Streamlit application that helps safety professionals and businesses identify, assess, and control musculoskeletal disorder (MSD) risks in manual handling, pushingpulling, and repetitive tasks.
 
 Providing an intuitive, no-database interface for the New Zealand risk assessment standards (NZMAC, NZRAPP, NZART).
 
